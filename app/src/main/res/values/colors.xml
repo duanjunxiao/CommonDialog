@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00ACE3</color>
+    <color name="colorPrimaryDark">#00ACE3</color>
+    <color name="colorAccent">#00ACE3</color>
+
+    <color name="common_blue">#00ACE3</color>
+    <color name="common_blue_pressed">#00A0EF</color>
+    <color name="common_gray">#F5F6F7</color>
+
+    <color name="common_white">#FFFFFFFF</color>
+
+    <color name="common_red">#FFFF0000</color>
+    <color name="common_red_pressed">@android:color/holo_red_light</color>
+
+</resources>
