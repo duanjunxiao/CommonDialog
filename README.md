@@ -9,6 +9,7 @@ A CommonDialog dialog for app
   		}
   	}
 
-  compile 'com.github.duanjunxiao:CommonDialog:0.0.0'
+ 
+     compile 'com.github.duanjunxiao:CommonDialog:0.0.0'
 
 
