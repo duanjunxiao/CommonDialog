@@ -24,8 +24,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showLongDialog(View view) {
-        new CommonDialog.Builder(this)
+        new CommonDialog2.Builder(this)
                 .setIsShortDialog(false)
+                .setCancelable(false)
                 .setTitle("起风了")
                 .setMessage(R.string.dialog_text)
                 .setPositiveButton(R.string.action_know, null)
@@ -33,9 +34,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showShortDialog(View view) {
-        new CommonDialog.Builder(this)
+        new CommonDialog2.Builder(this)
                 .setTitle("自定义Dialog")
                 .setMessage("自定义Dialog之-建造者模式Builder")
+                .setCancelable(false)
                 .setPositiveButton(R.string.action_delete, new Dialog.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
@@ -53,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showShortDialogRed(View view) {
-        new CommonDialog.Builder(this)
+        new CommonDialog2.Builder(this)
                 .setTitle("自定义Dialog")
                 .setMessage("自定义Dialog之-建造者模式Builder")
                 .setPositiveButton(R.string.action_delete, new Dialog.OnClickListener() {
