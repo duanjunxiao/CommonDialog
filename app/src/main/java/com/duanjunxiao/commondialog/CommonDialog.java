@@ -236,5 +236,4 @@ public class CommonDialog extends Dialog {
             return dialog;
         }
     }
-
 }
