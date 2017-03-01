@@ -237,4 +237,8 @@ public class CommonDialog extends Dialog {
         }
     }
 
+    public static Builder createBuilder(Context context){
+        return new Builder(context);
+    }
+
 }
